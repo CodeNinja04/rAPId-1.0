@@ -1,0 +1,64 @@
+    .body {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .main {
+        background-color: black;
+        height: 100%;
+        display: block;
+    }
+    
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    
+    .content-1 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    
+    .countdown {
+        height: 52vh;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .segment {
+        background-color: black;
+        height: 99%;
+    }
+    
+    .navbar {
+        margin: 0px;
+        height: 13vh;
+    }
+    
+    .player {
+        align-self: start;
+        margin: 0%;
+    }
+    
+    .react-rotating-text-cursor {
+        animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+    }
+    
+    @keyframes blinking-cursor {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }

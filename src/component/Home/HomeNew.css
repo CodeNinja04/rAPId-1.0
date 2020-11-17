@@ -1,0 +1,82 @@
+.body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main {
+    background-color: black;
+    height: 100%;
+    display: block;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.content-1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.countdown {
+    margin: 0px;
+    padding: 0px;
+}
+
+.segment {
+    height: 100%;
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    margin: 0px;
+    height: 100%;
+}
+
+.test {
+    background-color: black;
+}
+
+.player {
+    align-self: start;
+    margin: 0%;
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    height: 100%;
+}
