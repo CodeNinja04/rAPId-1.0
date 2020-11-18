@@ -37,6 +37,11 @@ const Home = (props) => {
     const { handleSignout } = useContext(firebaseAuth);
     const [inHover, setHover] = useState(false);
 
+    const { token, user } = useContext(firebaseAuth);
+    console.log(token);
+    console.log("home");
+    console.log(user);
+
     var ReactRotatingText = require("react-rotating-text");
 
     return ( <
@@ -79,7 +84,7 @@ const Home = (props) => {
         }
         items = {
             [
-                "Hello USER",
+                'HELLO ', { user },
                 "Welcome to rAPId 1.0!! ",
                 "we have two questions for you",
                 "ALL THE BEST!!",

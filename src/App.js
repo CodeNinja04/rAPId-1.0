@@ -16,7 +16,12 @@ import ContactModal from "./component/ContactModal";
 
 function App() {
     const { token } = useContext(firebaseAuth);
+
+    console.log("App");
     console.log(token);
+    const { id } = useContext(firebaseAuth);
+    console.log(id);
+
     return ( <
         >
         { " " } { /* switch allows switching which components render.  */ } { " " } <

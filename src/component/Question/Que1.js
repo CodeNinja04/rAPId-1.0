@@ -34,11 +34,12 @@ function Que1() {
         Grid.Column textAlign = "center" >
         <
         container style = {
-            { fontSize: "2rem" } } > { " " }
+            { fontSize: "2rem" }
+        } > { " " }
         QUE1: Create a backend
         for TODO list { " " } <
-        /container>{" "} <
-        /Grid.Column>{" "} <
+        /container>{" "} < /
+        Grid.Column > { " " } <
         Grid.Column floated = "right"
         largeScreen = { 4 } >
         <
@@ -51,11 +52,12 @@ function Que1() {
         href = "https://www.postman.com/"
         header = "POSTMAN"
         description = "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster." /
-        > { " " } <
-        /Grid.Column>{" "} <
-        /Grid>{" "} <
-        /div>{" "} <
-        /div>
+        >
+        { " " } <
+        /Grid.Column>{" "} < /
+        Grid > { " " } <
+        /div>{" "} < /
+        div >
     );
 }
 

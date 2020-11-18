@@ -65,8 +65,8 @@ export default class NavBar extends React.Component {
             Menu.Item position = "right" >
             <
             Button as = "a"
-            inverted primary size = "huge"
-            onClick = { this.handleSignout } >
+            href = "/"
+            inverted primary size = "huge" >
             LOG OUT { " " } <
             /Button>{" "} < /
             Menu.Item > { " " } <
