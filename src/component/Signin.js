@@ -88,7 +88,7 @@ const Signin = () => {
             <
             Header style = {
                 { fontSize: "2rem", fontFamily: "NexaBold" } } > { " " }
-            LOG IN HERE { " " } <
+            LOGIN HERE { " " } <
             /Header>{" "} <
             Form onSubmit = { handleSubmit }
             size = "big"
