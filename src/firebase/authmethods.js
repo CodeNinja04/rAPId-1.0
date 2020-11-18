@@ -71,7 +71,7 @@ export const authMethods = {
                     .auth()
                     .currentUser.getIdToken(true)
                     .then(async function(idToken) {
-                        /*await Axios.post(
+                        await Axios.post(
                                   "https://iothinc-recruitments.herokuapp.com/api/signup/", {
                                       username: user,
                                       id_token: idToken,
@@ -82,7 +82,7 @@ export const authMethods = {
                               })
                               .catch((error) => {
                                   console.log(error.response.data);
-                              });*/
+                              });
                         console.log("id token");
                         console.log(idToken);
                     })
